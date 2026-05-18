@@ -71,7 +71,7 @@ function HomeHero({ onNav }) {
         }}>
           <div>
             <div className="chip chip-saffron" style={{ marginBottom: 28 }}>
-              <Star size={14} color="var(--paper)" /> Ka–Kha preorder is open · ships May 2026
+              <Star size={14} color="var(--paper)" /> Ka–Kha preorder is open · ships June 2026
             </div>
 
             <h1 className="h-display">
@@ -81,7 +81,7 @@ function HomeHero({ onNav }) {
             </h1>
 
             <p className="lede" style={{ marginTop: 28 }}>
-              Tiny Wisdom Cards are story-rich learning decks for curious hands aged three and up — a bilingual library of letters, legends and values, illustrated in Kathmandu.
+              Tiny Wisdom Cards are story-rich learning decks for curious hands aged three and up, a bilingual library of letters, legends and values, illustrated in Kathmandu.
             </p>
 
             <div style={{ display: "flex", gap: 14, marginTop: 40, alignItems: "center", flexWrap: "wrap" }}>
@@ -205,16 +205,16 @@ function TwoDecks({ onNav, onOrder }) {
             Pick a starting <br />letter.
           </h2>
           <p className="lede" style={{ margin: "20px auto 0" }}>
-            Each deck stands on its own — pick the one that calls to your family, or pair them up for the full bilingual library.
+            Each deck stands on its own, pick the one that calls to your family, or pair them up for the full bilingual library.
           </p>
         </div>
 
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 32, marginTop: 72 }} className="decks-grid">
           <DeckCardBig
             tag="The Original"
-            title="A–Z Heroes & Mantras"
-            handAccent="Heroes & Mantras"
-            description="26 cards introducing the English alphabet through legends from the Mahabharata and Ramayana, plus 5 mantra cards for peace and courage."
+            title="A–Z Ancient Wisdom"
+            handAccent="Ancient Wisdom"
+            description="26 cards introducing the English alphabet through legends from the Mahabharata and Ramayana, plus activity and mantra cards for peace and courage."
             price="Rs 499"
             priceNote="31 cards + guide book"
             image="/assets/ABC-cover.png"
@@ -227,11 +227,11 @@ function TwoDecks({ onNav, onOrder }) {
           />
           <DeckCardBig
             tag="New · Preorder"
-            title="Ka–Kha Sanskar Lipi"
-            handAccent="Sanskar Lipi"
-            description="32 cards walking little ones through the Nepali alphabet — where क is for karma gara, ख for khelna jaau, and every letter teaches a value."
+            title="Ka–Kha Sanskaar Lipi"
+            handAccent="Sanskaar Lipi"
+            description="32 cards walking little ones through the Nepali alphabet, where क is for karma gara, ख for khelna jaau, and every letter teaches a value."
             price="Rs 300"
-            priceNote="Preorder — ships May 2026"
+            priceNote="Preorder — ships June 2026"
             image="/assets/kakha-cover.png"
             backImage="/assets/Ka-Kha-Front Ka.png"
             color="var(--peach)"
@@ -355,7 +355,7 @@ function CardOfDayTeaser({ onNav }) {
               a <span className="hand">tiny wisdom.</span>
             </h2>
             <p className="lede" style={{ marginTop: 22 }}>
-              Tap a card to receive today's word, story or mantra. A small daily ritual — for breakfast tables, classrooms or quiet evenings.
+              Tap a card to receive today's word, story or mantra. A small daily ritual, for breakfast tables, classrooms or quiet evenings.
             </p>
             <div style={{ display: "flex", gap: 12, marginTop: 36, flexWrap: "wrap" }}>
               <button className="btn btn-primary btn-arrow" onClick={() => onNav("cotd")}>
@@ -538,14 +538,14 @@ function BundleOffer({ onNav, onOrder }) {
                 border: "2px solid var(--ink)",
                 marginBottom: 24,
                 transform: "rotate(-2deg)",
-              }}>THE HERITAGE BUNDLE ✦</span>
+              }}>THE TINY WISDOM BUNDLE ✦</span>
 
               <h2 className="h-1" style={{ color: "var(--paper)" }}>
                 Both decks.<br />
                 <span className="hand" style={{ color: "var(--paper)" }}>One little library.</span>
               </h2>
               <p style={{ color: "rgba(255,248,231,0.92)", marginTop: 18, fontSize: 17, lineHeight: 1.55, maxWidth: "44ch" }}>
-                The A–Z Heroes deck and the Ka–Kha Sanskar Lipi deck — beautifully boxed together. Bilingual learning, two scripts, one happy shelf.
+                The A–Z Ancient Wisdom deck and the Ka–Kha Sanskaar Lipi deck, boxed together. Bilingual learning, two scripts, one happy shelf.
               </p>
 
               <div style={{
@@ -585,7 +585,7 @@ function BundleOffer({ onNav, onOrder }) {
                 </button>
               </div>
               <div style={{ fontSize: 12, color: "rgba(255,248,231,0.7)", marginTop: 16 }}>
-                ✦ Ka–Kha portion ships May 2026 — A–Z ships immediately
+                ✦ Ka–Kha portion ships June 2026 — A–Z ships immediately
               </div>
             </div>
 
@@ -671,15 +671,15 @@ function StorySection() {
               <span className="hand">Crafted with care.</span>
             </h2>
             <p className="lede" style={{ marginTop: 22 }}>
-              Tiny Wisdom Cards began at a Kathmandu dinner table — a simple wish to pass on the stories, scripts and small daily values our grandparents gave us, in a form a four-year-old would actually reach for.
+              Tiny Wisdom Cards began at a Kathmandu dinner table, a simple wish to pass on the stories, scripts and small daily values our grandparents gave us, in a form a four-year-old would actually reach for.
             </p>
             <p className="lede" style={{ marginTop: 14 }}>
-              Every card is illustrated by Nepali artists, printed on heavy stock with a glossy lamination and rounded corners, and tested by very tough critics aged three to nine.
+              Every card is crafted with a distinct visual identity, printed on heavy stock with a glossy lamination and rounded corners, and tested by very tough critics aged three to nine.
             </p>
 
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, marginTop: 36 }}>
               <Pillar color="var(--sage)" icon="✦" title="Curriculum-aware" body="Aligned with early-grade Nepali language learning." />
-              <Pillar color="var(--peach-light)" icon="❀" title="Beautifully illustrated" body="Illustrated by Nepali artists. No stock art." />
+              <Pillar color="var(--peach-light)" icon="❀" title="Beautifully illustrated" body="Rich visuals rooted in Nepali culture. Every card, a tiny work of art." />
               <Pillar color="var(--peach-light)" icon="◈" title="Glossy laminated" body="Built for sticky fingers and re-reading." />
               <Pillar color="var(--sage)" icon="✺" title="Made in Nepal" body="Printed in Kathmandu, shipped worldwide." />
             </div>
@@ -884,14 +884,14 @@ function FinalCTA({ onNav, onOrder }) {
           Bring home a piece <br />of the <span className="hand" style={{ color: "var(--paper)" }}>everyday epic.</span>
         </h2>
         <p style={{ color: "rgba(255,248,231,0.92)", maxWidth: 560, margin: "28px auto 40px", fontSize: 17, fontWeight: 500 }}>
-          Pick a starting point — or grab both decks together and save 30%.
+          Pick a starting point, or grab both decks together and save 30%.
         </p>
         <div style={{ display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
           <button className="btn btn-lg btn-arrow" style={{ background: "var(--paper)", color: "var(--ink)" }} onClick={() => onOrder({ az: true, kakha: false })}>
-            The A–Z Deck · Rs 499
+            A–Z Ancient Wisdom · Rs 499
           </button>
           <button className="btn btn-lg btn-arrow" style={{ background: "var(--sage)", color: "var(--ink)" }} onClick={() => onOrder({ az: false, kakha: true })}>
-            The Ka–Kha · Rs 300
+            Ka–Kha Sanskaar Lipi · Rs 300
           </button>
           <button className="btn btn-ink btn-lg btn-arrow" style={{ position: "relative" }} onClick={() => onOrder({ az: true, kakha: true })}>
             <span style={{

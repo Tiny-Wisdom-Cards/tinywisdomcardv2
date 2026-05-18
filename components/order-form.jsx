@@ -176,8 +176,8 @@ export function OrderForm({ isOpen, initialSelection, onClose }) {
   }, []);
 
   const decks = [
-    { id: "az", name: "A–Z English Deck", price: 499, cover: "/assets/ABC-cover.png" },
-    { id: "kakha", name: "Ka–Kha Nepali Deck", price: 300, cover: "/assets/kakha-cover.png" },
+    { id: "az", name: "A–Z Ancient Wisdom", price: 499, cover: "/assets/ABC-cover.png" },
+    { id: "kakha", name: "Ka–Kha Sanskaar Lipi", price: 300, cover: "/assets/kakha-cover.png" },
   ];
 
   const both = selectedDecks.az && selectedDecks.kakha;
@@ -212,15 +212,15 @@ export function OrderForm({ isOpen, initialSelection, onClose }) {
     const lines = [];
     if (both) {
       if (separateQty) {
-        lines.push(`• A–Z English Deck × ${qtyAz} = Rs ${qtyAz * 499}`);
-        lines.push(`• Ka–Kha Nepali Deck × ${qtyKakha} = Rs ${qtyKakha * 300}`);
+        lines.push(`• A–Z Ancient Wisdom × ${qtyAz} = Rs ${qtyAz * 499}`);
+        lines.push(`• Ka–Kha Sanskaar Lipi × ${qtyKakha} = Rs ${qtyKakha * 300}`);
       } else {
-        lines.push(`• Heritage Bundle (A–Z + Ka–Kha) × ${qty} = Rs ${qty * 559}`);
+        lines.push(`• Tiny Wisdom Bundle (A–Z + Ka–Kha) × ${qty} = Rs ${qty * 559}`);
       }
     } else if (selectedDecks.az) {
-      lines.push(`• A–Z English Deck × ${qty} = Rs ${qty * 499}`);
+      lines.push(`• A–Z Ancient Wisdom × ${qty} = Rs ${qty * 499}`);
     } else if (selectedDecks.kakha) {
-      lines.push(`• Ka–Kha Nepali Deck × ${qty} = Rs ${qty * 300}`);
+      lines.push(`• Ka–Kha Sanskaar Lipi × ${qty} = Rs ${qty * 300}`);
     }
     return lines.join("\n");
   };
