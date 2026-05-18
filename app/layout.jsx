@@ -1,8 +1,11 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Tiny Wisdom Cards — Story-rich learning decks for curious hands',
-  description: 'Bilingual learning decks for tiny hands.',
+  title: 'Tiny Wisdom Cards',
+  description: 'Learning decks for curious hands.',
+  icons: {
+    icon: '/assets/fabicon.png',
+  },
 };
 
 export default function RootLayout({ children }) {
