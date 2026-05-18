@@ -793,7 +793,7 @@ function BulkForm() {
         notes ? `\nAdditional Notes:\n${notes}` : null,
       ].filter(l => l !== null).join("\n");
 
-      const url = `https://wa.me/9779866104387?text=${encodeURIComponent(message)}`;
+      const url = `https://wa.me/9779705812368?text=${encodeURIComponent(message)}`;
       window.open(url, "_blank");
     } else {
       // EmailJS Submission
