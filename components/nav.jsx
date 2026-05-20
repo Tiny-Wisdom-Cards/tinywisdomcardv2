@@ -154,35 +154,75 @@ function TopNav({ page, onNav, scrolled, onOrder }) {
 
 function StickyCTA({ onClick, visible }) {
   return (
-    <div style={{
-      position: "fixed",
-      bottom: 24,
-      left: "50%",
-      transform: `translateX(-50%) translateY(${visible ? 0 : 120}px)`,
-      opacity: visible ? 1 : 0,
-      transition: "transform .4s cubic-bezier(.2,.8,.2,1), opacity .3s",
-      zIndex: 40,
-      background: "var(--saffron)",
-      color: "var(--paper)",
-      borderRadius: 999,
-      padding: "10px 10px 10px 22px",
-      border: "2.5px solid var(--ink)",
-      boxShadow: "6px 6px 0 var(--ink)",
-      display: "flex",
-      alignItems: "center",
-      gap: 14,
-      fontSize: 15,
-      fontWeight: 700,
-    }}>
-      <span>The Ka–Kha is on preorder · <b>Rs 300</b></span>
-      <button onClick={onClick} style={{
-        background: "var(--ink)", color: "var(--paper)",
-        border: "2px solid var(--ink)", borderRadius: 999,
-        padding: "10px 18px", fontWeight: 800, fontSize: 14, cursor: "pointer",
-      }}>
-        Reserve →
-      </button>
-    </div>
+    <>
+      <div className={`sticky-cta${visible ? " sticky-cta--visible" : ""}`}>
+        <span>The Ka–Kha is on preorder · <b>Rs 300</b></span>
+        <button onClick={onClick} className="sticky-cta__btn">
+          Reserve →
+        </button>
+      </div>
+      <style>{`
+        .sticky-cta {
+          position: fixed;
+          bottom: 24px;
+          left: 50%;
+          transform: translateX(-50%) translateY(120px);
+          opacity: 0;
+          transition: transform .4s cubic-bezier(.2,.8,.2,1), opacity .3s;
+          z-index: 40;
+          background: var(--saffron);
+          color: var(--paper);
+          border-radius: 999px;
+          padding: 10px 10px 10px 22px;
+          border: 2.5px solid var(--ink);
+          box-shadow: 6px 6px 0 var(--ink);
+          display: flex;
+          align-items: center;
+          gap: 14px;
+          font-size: 15px;
+          font-weight: 700;
+        }
+        .sticky-cta--visible {
+          transform: translateX(-50%) translateY(0);
+          opacity: 1;
+        }
+        .sticky-cta__btn {
+          background: var(--ink);
+          color: var(--paper);
+          border: 2px solid var(--ink);
+          border-radius: 999px;
+          padding: 10px 18px;
+          font-weight: 800;
+          font-size: 14px;
+          cursor: pointer;
+          white-space: nowrap;
+          flex-shrink: 0;
+          font-family: inherit;
+        }
+        @media (max-width: 520px) {
+          .sticky-cta {
+            flex-direction: column;
+            align-items: stretch;
+            border-radius: 20px;
+            padding: 16px 18px;
+            gap: 12px;
+            left: 16px;
+            right: 16px;
+            width: auto;
+            transform: translateY(120px);
+          }
+          .sticky-cta--visible {
+            transform: translateY(0);
+          }
+          .sticky-cta__btn {
+            width: 100%;
+            text-align: center;
+            padding: 12px 18px;
+            font-size: 15px;
+          }
+        }
+      `}</style>
+    </>
   );
 }
 
