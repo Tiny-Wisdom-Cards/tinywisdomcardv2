@@ -209,16 +209,16 @@ function KakhaPage({ onNav, onOrder }) {
   const letters = [
     { d: "क", lat: "ka", w: "कर्म गर", e: "Do your work", v: "Karma" },
     { d: "ख", lat: "kha", w: "खेल्न जाऊ", e: "Go and play", v: "Play" },
-    { d: "ग", lat: "ga", w: "गाउँ हेर", e: "See the village", v: "Roots" },
-    { d: "घ", lat: "gha", w: "घर सम्झ", e: "Remember home", v: "Belonging" },
-    { d: "च", lat: "cha", w: "चुप बस", e: "Sit quietly", v: "Stillness" },
-    { d: "छ", lat: "chha", w: "छर्न सिक", e: "Learn to share", v: "Generosity" },
-    { d: "ज", lat: "ja", w: "जान्न खोज", e: "Seek to know", v: "Curiosity" },
-    { d: "त", lat: "ta", w: "ताप कम", e: "Cool the anger", v: "Patience" },
-    { d: "द", lat: "da", w: "दिने बन", e: "Become a giver", v: "Giving" },
-    { d: "न", lat: "na", w: "नम्र बन", e: "Be humble", v: "Humility" },
-    { d: "प", lat: "pa", w: "पढ्न मन पराऊ", e: "Love to read", v: "Learning" },
-    { d: "य", lat: "ya", w: "योग गर", e: "Practise yoga", v: "Balance" },
+    { d: "ग", lat: "ga", w: "गाउँ जाऊ", e: "Go to the village", v: "Roots" },
+    { d: "घ", lat: "gha", w: "घमण्ड नगर", e: "Do not be arrogant", v: "Belonging" },
+    { d: "च", lat: "cha", w: "चरित्रवान् बन", e: "Become virtuous", v: "Stillness" },
+    { d: "छ", lat: "chha", w: "छहारीमा बस", e: "Sit in the shade", v: "Generosity" },
+    { d: "ज", lat: "ja", w: "जननी जन्मभूमि", e: "Mother and motherland", v: "Curiosity" },
+    { d: "त", lat: "ta", w: "तपस्वी बन", e: "Become an ascetic", v: "Patience" },
+    { d: "द", lat: "da", w: "दयालु बन", e: "Be kind", v: "Giving" },
+    { d: "न", lat: "na", w: "नमस्ते गर", e: "Say namaste", v: "Humility" },
+    { d: "प", lat: "pa", w: "पाठ पढ", e: "Read the lesson", v: "Learning" },
+    { d: "य", lat: "ya", w: "योग गर", e: "Do yoga", v: "Balance" },
   ];
 
   return (
