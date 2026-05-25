@@ -2,7 +2,7 @@ import './globals.css';
 import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
-  title: 'Tiny Wisdom Cards',
+  title: 'Tiny Wisdom Cards | Where ancient wisdom meets playful learning, crafted for curious little minds',
   description: 'Learning decks for curious hands.',
   icons: {
     icon: '/assets/fabicon.png',
