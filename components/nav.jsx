@@ -44,7 +44,7 @@ function TopNav({ page, onNav, scrolled, onOrder }) {
       <div className="container" style={{
         display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12,
       }}>
-        <a onClick={() => onNav("home")} style={{ cursor: "pointer", display: "flex" }}>
+        <a href="#home" onClick={(e) => { e.preventDefault(); onNav("home"); }} style={{ cursor: "pointer", display: "flex" }}>
           <Logo />
         </a>
 
@@ -56,7 +56,7 @@ function TopNav({ page, onNav, scrolled, onOrder }) {
           boxShadow: "var(--shadow-stk-sm)",
         }}>
           {items.map(it => (
-            <a key={it.id} onClick={() => onNav(it.id)} style={{
+            <a key={it.id} href={"#" + it.id} onClick={(e) => { e.preventDefault(); onNav(it.id); }} style={{
               cursor: "pointer",
               padding: "9px 14px",
               borderRadius: 999,
@@ -120,7 +120,7 @@ function TopNav({ page, onNav, scrolled, onOrder }) {
             boxShadow: "var(--shadow-stk)",
           }}>
             {items.map(it => (
-              <a key={it.id} onClick={() => onNav(it.id)} style={{
+              <a key={it.id} href={"#" + it.id} onClick={(e) => { e.preventDefault(); onNav(it.id); }} style={{
                 cursor: "pointer",
                 padding: "12px 16px",
                 borderRadius: 12,
@@ -265,11 +265,11 @@ function Footer({ onNav }) {
           <div>
             <div className="label" style={{ color: "var(--peach)", marginBottom: 18 }}>Explore</div>
             <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "grid", gap: 10, fontSize: 15 }}>
-              <li><a onClick={() => onNav("deck")} style={{ cursor: "pointer" }}>The A–Z Deck</a></li>
-              <li><a onClick={() => onNav("kakha")} style={{ cursor: "pointer" }}>Ka–Kha Deck <span style={{ fontFamily: "var(--font-hand)", color: "var(--saffron)", marginLeft: 4 }}>new!</span></a></li>
-              <li><a onClick={() => onNav("cotd")} style={{ cursor: "pointer" }}>Card of the Day</a></li>
-              <li><a onClick={() => onNav("bulk")} style={{ cursor: "pointer" }}>Bulk Orders</a></li>
-              <li><a onClick={() => onNav("community")} style={{ cursor: "pointer" }}>Stories</a></li>
+              <li><a href="#deck" onClick={(e) => { e.preventDefault(); onNav("deck"); }} style={{ cursor: "pointer" }}>The A–Z Deck</a></li>
+              <li><a href="#kakha" onClick={(e) => { e.preventDefault(); onNav("kakha"); }} style={{ cursor: "pointer" }}>Ka–Kha Deck <span style={{ fontFamily: "var(--font-hand)", color: "var(--saffron)", marginLeft: 4 }}>new!</span></a></li>
+              <li><a href="#cotd" onClick={(e) => { e.preventDefault(); onNav("cotd"); }} style={{ cursor: "pointer" }}>Card of the Day</a></li>
+              <li><a href="#bulk" onClick={(e) => { e.preventDefault(); onNav("bulk"); }} style={{ cursor: "pointer" }}>Bulk Orders</a></li>
+              <li><a href="#community" onClick={(e) => { e.preventDefault(); onNav("community"); }} style={{ cursor: "pointer" }}>Stories</a></li>
             </ul>
           </div>
           <div>
