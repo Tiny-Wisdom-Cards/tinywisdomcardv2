@@ -55,8 +55,9 @@ function App() {
       setScrolled(window.scrollY > 30);
       setStickyVisible(window.scrollY > 700 && window.scrollY < document.body.scrollHeight - window.innerHeight - 400);
     };
-    window.addEventListener("scroll", onScroll);
-    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    // Defer the initial read to avoid a forced reflow during hydration
+    requestAnimationFrame(onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
