@@ -1,5 +1,57 @@
 import './globals.css';
 import { Analytics } from '@vercel/analytics/next';
+import {
+  Bricolage_Grotesque,
+  Manrope,
+  Caveat,
+  Newsreader,
+  Tiro_Devanagari_Hindi,
+  Mukta,
+} from 'next/font/google';
+
+const bricolage = Bricolage_Grotesque({
+  subsets: ['latin'],
+  weight: ['500', '600', '700', '800'],
+  variable: '--font-bricolage',
+  display: 'swap',
+});
+
+const manrope = Manrope({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '800'],
+  variable: '--font-manrope',
+  display: 'swap',
+});
+
+const caveat = Caveat({
+  subsets: ['latin'],
+  weight: ['600', '700'],
+  variable: '--font-caveat',
+  display: 'swap',
+});
+
+const newsreader = Newsreader({
+  subsets: ['latin'],
+  weight: ['400', '500'],
+  style: ['normal', 'italic'],
+  variable: '--font-newsreader',
+  display: 'swap',
+});
+
+const tiroDevanagari = Tiro_Devanagari_Hindi({
+  subsets: ['devanagari'],
+  weight: ['400'],
+  style: ['normal', 'italic'],
+  variable: '--font-tiro',
+  display: 'swap',
+});
+
+const mukta = Mukta({
+  subsets: ['devanagari', 'latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-mukta',
+  display: 'swap',
+});
 
 export const metadata = {
   metadataBase: new URL('https://tinywisdomcards.com'),
@@ -14,13 +66,18 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const fontVars = [
+    bricolage.variable,
+    manrope.variable,
+    caveat.variable,
+    newsreader.variable,
+    tiroDevanagari.variable,
+    mukta.variable,
+  ].join(' ');
+
   return (
-    <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Caveat:wght@600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Tiro+Devanagari+Hindi:ital@0;1&family=Mukta:wght@400;500;600;700&display=swap" rel="stylesheet" />
-      </head>
+    <html lang="en" className={fontVars}>
+      <head />
       <body>
         {children}
         <Analytics />

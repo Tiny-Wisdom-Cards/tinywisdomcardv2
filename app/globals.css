@@ -24,12 +24,12 @@
   --plum: #6E3A66;           /* rare accent */
 
   /* Type */
-  --font-display: "Bricolage Grotesque", "Manrope", sans-serif;
-  --font-body: "Manrope", -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-hand: "Caveat", cursive;
-  --font-deva: "Tiro Devanagari Hindi", "Mukta", serif;
-  --font-deva-body: "Mukta", sans-serif;
-  --font-serif: "Newsreader", serif;
+  --font-display: var(--font-bricolage), var(--font-manrope), sans-serif;
+  --font-body: var(--font-manrope), -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-hand: var(--font-caveat), cursive;
+  --font-deva: var(--font-tiro), var(--font-mukta), serif;
+  --font-deva-body: var(--font-mukta), sans-serif;
+  --font-serif: var(--font-newsreader), serif;
 
   /* Radii */
   --radius-sm: 10px;
