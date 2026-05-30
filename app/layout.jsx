@@ -2,8 +2,8 @@ import './globals.css';
 import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
-  title: 'Tiny Wisdom Cards | Where ancient wisdom meets playful learning, crafted for curious little minds',
-  description: 'Learning decks for curious hands.',
+  title: 'Nepali & English Alphabet Learning Cards for Kids | Tiny Wisdom Cards',
+  description: 'Tiny Wisdom Cards are bilingual learning card decks for children aged 3+, teaching the English and Nepali alphabet through stories from Hindu epics. Made in Kathmandu.',
   icons: {
     icon: '/assets/fabicon.png',
   },
