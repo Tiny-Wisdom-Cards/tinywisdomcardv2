@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import emailjs from '@emailjs/browser';
 import { Bubble, Squiggle, Star, StickerBadge } from './nav.jsx';
 import { FinalCTA, StickerCard, splitGraphemes } from './home.jsx';
@@ -312,7 +313,7 @@ function KakhaPage({ onNav, onOrder }) {
 
           <div style={{ display: "grid", gridTemplateColumns: "0.9fr 1.1fr", gap: 64, marginTop: 56, alignItems: "center" }} className="anatomy-grid">
             <div className="sticker-card" style={{ maxWidth: 380, margin: "0 auto", width: "100%", aspectRatio: "0.71/1", transform: "rotate(-3deg)" }}>
-              <img src="/assets/Ka-Kha-Front Ka.png" width={210} height={305} alt="Ka (क) card — Do your work, Ka–Kha Sanskaar Lipi deck, Kathmandu" />
+              <Image src="/assets/Ka-Kha-Front Ka.png" fill sizes="(max-width: 600px) 100vw, 380px" style={{ objectFit: 'cover' }} alt="Ka (क) card — Do your work, Ka–Kha Sanskaar Lipi deck, Kathmandu" />
             </div>
             <div>
               <ol style={{ listStyle: "none", padding: 0, margin: 0, display: "grid", gap: 18 }}>

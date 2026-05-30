@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Bubble, Squiggle, Star, StickerBadge } from './nav.jsx';
 // home.jsx — Storybook Playful homepage
 
@@ -179,33 +180,28 @@ function HeroDecks() {
 }
 
 function StickerCard({ src, style, className, sticker }) {
+  const alt =
+    src.includes('kakha-cover') ? 'Ka–Kha Sanskaar Lipi deck cover — bilingual learning cards, Kathmandu' :
+    src.includes('ABC-cover') ? 'A–Z Ancient Wisdom deck cover — stories from the Mahabharata & Ramayana' :
+    src.includes('ABC-Front A') ? 'Letter A card — Arjuna from the Mahabharata, A–Z Ancient Wisdom deck' :
+    src.includes('ABC-Front G') ? 'Letter G card — Ganesha, A–Z Ancient Wisdom deck' :
+    src.includes('ABC-Front L') ? 'Letter L card — A–Z Ancient Wisdom deck' :
+    src.includes('ABC-Front U') ? 'Letter U card — A–Z Ancient Wisdom deck' :
+    src.includes('ABC-Back OM') ? 'OM mantra card back — A–Z Ancient Wisdom deck' :
+    src.includes('ABC-Back Twameba') ? 'Twameba mantra card back — A–Z Ancient Wisdom deck' :
+    src.includes('Ka-Kha-Front Ka') ? 'Ka (क) card — Do your work, Ka–Kha Sanskaar Lipi deck' :
+    src.includes('Ka-Kha-Front Kha') ? 'Kha (ख) card — Go and play, Ka–Kha Sanskaar Lipi deck' :
+    src.includes('Ka-Kha-Front a aa') ? 'Vowels अ/आ card — Ka–Kha Sanskaar Lipi deck' :
+    src.includes('Ka-Kha-Front o au') ? 'Vowels ओ/औ card — Ka–Kha Sanskaar Lipi deck' :
+    src.includes('Ka-Kha-Back') ? 'Card back with folk-art Nepali border — Ka–Kha deck' :
+    'Tiny Wisdom Card — bilingual alphabet learning cards for kids';
   return (
     <div className={"sticker-card " + (className || "")} style={{
       position: "absolute",
       aspectRatio: "0.71/1",
       ...style,
     }}>
-      <img
-        src={src}
-        width={src.includes('ABC-cover') ? 392 : src.includes('kakha-cover') ? 197 : 210}
-        height={src.includes('ABC-cover') ? 585 : src.includes('kakha-cover') ? 293 : 305}
-        alt={
-          src.includes('kakha-cover') ? 'Ka–Kha Sanskaar Lipi deck cover — bilingual learning cards, Kathmandu' :
-          src.includes('ABC-cover') ? 'A–Z Ancient Wisdom deck cover — stories from the Mahabharata & Ramayana' :
-          src.includes('ABC-Front A') ? 'Letter A card — Arjuna from the Mahabharata, A–Z Ancient Wisdom deck' :
-          src.includes('ABC-Front G') ? 'Letter G card — Ganesha, A–Z Ancient Wisdom deck' :
-          src.includes('ABC-Front L') ? 'Letter L card — A–Z Ancient Wisdom deck' :
-          src.includes('ABC-Front U') ? 'Letter U card — A–Z Ancient Wisdom deck' :
-          src.includes('ABC-Back OM') ? 'OM mantra card back — A–Z Ancient Wisdom deck' :
-          src.includes('ABC-Back Twameba') ? 'Twameba mantra card back — A–Z Ancient Wisdom deck' :
-          src.includes('Ka-Kha-Front Ka') ? 'Ka (क) card — Do your work, Ka–Kha Sanskaar Lipi deck' :
-          src.includes('Ka-Kha-Front Kha') ? 'Kha (ख) card — Go and play, Ka–Kha Sanskaar Lipi deck' :
-          src.includes('Ka-Kha-Front a aa') ? 'Vowels अ/आ card — Ka–Kha Sanskaar Lipi deck' :
-          src.includes('Ka-Kha-Front o au') ? 'Vowels ओ/औ card — Ka–Kha Sanskaar Lipi deck' :
-          src.includes('Ka-Kha-Back') ? 'Card back with folk-art Nepali border — Ka–Kha deck' :
-          'Tiny Wisdom Card — bilingual alphabet learning cards for kids'
-        }
-      />
+      <Image src={src} fill sizes="(max-width:600px) 50vw, 30vw" style={{ objectFit: 'cover', borderRadius: 16 }} alt={alt} />
       {sticker}
     </div>
   );
@@ -316,13 +312,13 @@ function DeckCardBig({ tag, title, handAccent, description, price, priceNote, im
           position: "absolute", top: 10, left: 10, width: 200, aspectRatio: "0.71/1",
           transform: "rotate(-8deg)",
         }}>
-          <img src={backImage} width={210} height={305} alt={backImage.includes('ABC-Front U') ? 'Letter U card — A–Z Ancient Wisdom deck' : backImage.includes('Ka-Kha-Front Ka') ? 'Ka (क) card — Do your work, Ka–Kha Sanskaar Lipi deck' : 'Tiny Wisdom Card — bilingual alphabet learning cards for kids'} />
+          <Image src={backImage} fill sizes="200px" style={{ objectFit: 'cover', borderRadius: 16 }} alt={backImage.includes('ABC-Front U') ? 'Letter U card — A–Z Ancient Wisdom deck' : backImage.includes('Ka-Kha-Front Ka') ? 'Ka (क) card — Do your work, Ka–Kha Sanskaar Lipi deck' : 'Tiny Wisdom Card — bilingual alphabet learning cards for kids'} />
         </div>
         <div className="sticker-card" style={{
           position: "absolute", top: 0, right: 10, width: 220, aspectRatio: "0.71/1",
           transform: "rotate(6deg)",
         }}>
-          <img src={image} width={image.includes('ABC-cover') ? 392 : image.includes('kakha-cover') ? 197 : 210} height={image.includes('ABC-cover') ? 585 : image.includes('kakha-cover') ? 293 : 305} alt={image.includes('ABC-cover') ? 'A–Z Ancient Wisdom deck cover — stories from the Mahabharata & Ramayana' : image.includes('kakha-cover') ? 'Ka–Kha Sanskaar Lipi deck cover — bilingual learning cards, Kathmandu' : 'Tiny Wisdom Card deck cover — bilingual learning cards for kids'} />
+          <Image src={image} fill sizes="220px" style={{ objectFit: 'cover', borderRadius: 16 }} alt={image.includes('ABC-cover') ? 'A–Z Ancient Wisdom deck cover — stories from the Mahabharata & Ramayana' : image.includes('kakha-cover') ? 'Ka–Kha Sanskaar Lipi deck cover — bilingual learning cards, Kathmandu' : 'Tiny Wisdom Card deck cover — bilingual learning cards for kids'} />
         </div>
       </div>
 
@@ -423,7 +419,7 @@ function FlipCard({ flipped, onClick }) {
         boxShadow: "10px 10px 0 var(--saffron)",
         overflow: "hidden",
       }}>
-        <img src="/assets/Ka-Kha-Front Ka.png" width={210} height={305} alt="Ka (क) card — Do your work, Ka–Kha Sanskaar Lipi deck" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+        <Image src="/assets/Ka-Kha-Front Ka.png" fill sizes="300px" style={{ objectFit: 'cover' }} alt="Ka (क) card — Do your work, Ka–Kha Sanskaar Lipi deck" />
       </div>
       <div style={{
         position: "absolute", inset: 0, borderRadius: 24,
@@ -491,7 +487,7 @@ function InsideTheDeck() {
                 onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-10px) rotate(0deg) scale(1.04)"; e.currentTarget.style.zIndex = "5"; }}
                 onMouseLeave={e => { e.currentTarget.style.transform = `rotate(${baseTilt}deg)`; e.currentTarget.style.zIndex = ""; }}
               >
-                <img src={c.src} width={210} height={305} alt={c.src.includes('ABC-') ? `Letter ${c.deva} — A–Z Ancient Wisdom deck` : `${c.deva} card — Ka–Kha Sanskaar Lipi deck`} />
+                <Image src={c.src} fill sizes="(max-width:520px) 50vw, (max-width:900px) 33vw, 17vw" style={{ objectFit: 'cover', borderRadius: 16 }} alt={c.src.includes('ABC-') ? `Letter ${c.deva} — A–Z Ancient Wisdom deck` : `${c.deva} card — Ka–Kha Sanskaar Lipi deck`} />
               </div>
             );
           })}
@@ -614,13 +610,13 @@ function BundleOffer({ onNav, onOrder }) {
                 position: "absolute", top: 20, left: "2%", width: "48%",
                 transform: "rotate(-8deg)", aspectRatio: "0.71/1",
               }}>
-                <img src="/assets/ABC-cover.png" width={392} height={585} alt="A–Z Ancient Wisdom deck cover — stories from the Mahabharata & Ramayana" />
+                <Image src="/assets/ABC-cover.png" fill sizes="(max-width:900px) 48vw, 24vw" style={{ objectFit: 'cover', borderRadius: 16 }} alt="A–Z Ancient Wisdom deck cover — stories from the Mahabharata & Ramayana" />
               </div>
               <div className="sticker-card float-2" style={{
                 position: "absolute", bottom: 20, right: "2%", width: "48%",
                 transform: "rotate(8deg)", aspectRatio: "0.71/1",
               }}>
-                <img src="/assets/kakha-cover.png" width={197} height={293} alt="Ka–Kha Sanskaar Lipi deck cover — bilingual learning cards, Kathmandu" />
+                <Image src="/assets/kakha-cover.png" fill sizes="(max-width:900px) 48vw, 24vw" style={{ objectFit: 'cover', borderRadius: 16 }} alt="Ka–Kha Sanskaar Lipi deck cover — bilingual learning cards, Kathmandu" />
               </div>
               <div style={{
                 position: "absolute", top: "50%", left: "50%",
@@ -672,14 +668,14 @@ function StorySection() {
                 transform: "translateY(-50%) rotate(-7deg)",
                 width: "52%", aspectRatio: "0.71/1",
               }}>
-                <img src="/assets/kakha-cover.png" width={197} height={293} alt="Ka–Kha Sanskaar Lipi deck cover — bilingual learning cards, Kathmandu" />
+                <Image src="/assets/kakha-cover.png" fill sizes="(max-width:900px) 52vw, 26vw" style={{ objectFit: 'cover', borderRadius: 16 }} alt="Ka–Kha Sanskaar Lipi deck cover — bilingual learning cards, Kathmandu" />
               </div>
               <div className="sticker-card" style={{
                 position: "absolute", right: "8%", top: "50%",
                 transform: "translateY(-48%) rotate(8deg)",
                 width: "48%", aspectRatio: "0.71/1",
               }}>
-                <img src="/assets/ABC-cover.png" width={392} height={585} alt="A–Z Ancient Wisdom deck cover — stories from the Mahabharata & Ramayana" />
+                <Image src="/assets/ABC-cover.png" fill sizes="(max-width:900px) 48vw, 24vw" style={{ objectFit: 'cover', borderRadius: 16 }} alt="A–Z Ancient Wisdom deck cover — stories from the Mahabharata & Ramayana" />
               </div>
             </div>
           </div>
