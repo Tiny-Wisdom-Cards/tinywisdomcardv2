@@ -86,7 +86,7 @@ function StyleEditorial() {
             borderRadius: 4,
             overflow: "hidden",
           }}>
-            <img src="/assets/kakha-cover.png" alt="Cover of the Ka–Kha Sanskaar Lipi bilingual learning card deck for children, made in Kathmandu" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+            <img src="/assets/kakha-cover.png" width={197} height={293} alt="Ka–Kha Sanskaar Lipi deck cover — bilingual learning cards, Kathmandu" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
           </div>
           <div style={{
             position: "absolute", left: -8, top: 32,
@@ -218,7 +218,7 @@ function StyleFolk() {
         <div style={{ position: "relative", overflow: "hidden", display: "grid", gridTemplateRows: "1fr 1fr 1fr" }}>
           <div style={{ background: "#2D6E60", position: "relative" }}>
             <FolkMandala size={260} color="#FFF8E7" opacity={0.12} style={{ position: "absolute", top: -50, left: -50 }} />
-            <img src="/assets/Ka-Kha-Front Ka.png" alt="A card from the Ka–Kha Sanskaar Lipi deck showing the Nepali letter Ka (क) with the wisdom कर्म गर – Do your work" style={{ position: "absolute", top: 30, left: 60, width: 160, transform: "rotate(-8deg)", borderRadius: 8, boxShadow: "0 16px 30px rgba(0,0,0,0.3)" }} />
+            <img src="/assets/Ka-Kha-Front Ka.png" width={210} height={305} alt="Ka (क) card — Do your work, Ka–Kha Sanskaar Lipi deck" style={{ position: "absolute", top: 30, left: 60, width: 160, transform: "rotate(-8deg)", borderRadius: 8, boxShadow: "0 16px 30px rgba(0,0,0,0.3)" }} />
             <span style={{
               position: "absolute", top: 40, right: 40, fontFamily: '"Tiro Devanagari Hindi", serif',
               fontSize: 86, color: "#FFE38A",
@@ -226,7 +226,7 @@ function StyleFolk() {
           </div>
           <div style={{ background: "#4A1E66", position: "relative" }}>
             <FolkMandala size={260} color="#FFE38A" opacity={0.12} style={{ position: "absolute", bottom: -50, right: -50 }} />
-            <img src="/assets/kakha-cover.png" alt="Cover of the Ka–Kha Sanskaar Lipi bilingual learning card deck for children, made in Kathmandu" style={{ position: "absolute", top: 10, right: 60, width: 180, transform: "rotate(5deg)", borderRadius: 8, boxShadow: "0 16px 30px rgba(0,0,0,0.3)" }} />
+            <img src="/assets/kakha-cover.png" width={197} height={293} alt="Ka–Kha Sanskaar Lipi deck cover — bilingual learning cards, Kathmandu" style={{ position: "absolute", top: 10, right: 60, width: 180, transform: "rotate(5deg)", borderRadius: 8, boxShadow: "0 16px 30px rgba(0,0,0,0.3)" }} />
             <span style={{
               position: "absolute", top: 70, left: 50, fontFamily: '"Yeseva One", serif',
               fontSize: 64, color: "#FFE38A", fontStyle: "italic", lineHeight: 0.95,
@@ -234,7 +234,7 @@ function StyleFolk() {
           </div>
           <div style={{ background: "#C9962A", position: "relative" }}>
             <FolkMandala size={260} color="#4A1E66" opacity={0.16} style={{ position: "absolute", top: -50, left: -50 }} />
-            <img src="/assets/Ka-Kha-Front a aa.png" alt="A card from the Ka–Kha Sanskaar Lipi deck showing the Nepali vowels अ and आ" style={{ position: "absolute", bottom: 30, left: 80, width: 160, transform: "rotate(7deg)", borderRadius: 8, boxShadow: "0 16px 30px rgba(0,0,0,0.3)" }} />
+            <img src="/assets/Ka-Kha-Front a aa.png" width={210} height={304} alt="Vowels अ/आ card — Ka–Kha Sanskaar Lipi deck" style={{ position: "absolute", bottom: 30, left: 80, width: 160, transform: "rotate(7deg)", borderRadius: 8, boxShadow: "0 16px 30px rgba(0,0,0,0.3)" }} />
             <span style={{
               position: "absolute", bottom: 70, right: 40, fontFamily: '"Newsreader", serif',
               fontSize: 72, color: "#4A1E66", fontStyle: "italic", fontWeight: 500,
@@ -407,7 +407,7 @@ function StyleStorybook() {
             overflow: "hidden",
             aspectRatio: "0.71/1",
           }}>
-            <img src="/assets/kakha-cover.png" alt="Cover of the Ka–Kha Sanskaar Lipi bilingual learning card deck for children, made in Kathmandu" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 14 }} />
+            <img src="/assets/kakha-cover.png" width={197} height={293} alt="Ka–Kha Sanskaar Lipi deck cover — bilingual learning cards, Kathmandu" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 14 }} />
           </div>
           <div style={{
             position: "absolute", bottom: 30, right: 30, width: 240,
@@ -419,7 +419,7 @@ function StyleStorybook() {
             aspectRatio: "0.71/1",
             zIndex: 2,
           }}>
-            <img src="/assets/Ka-Kha-Front a aa.png" alt="A card from the Ka–Kha Sanskaar Lipi deck showing the Nepali vowels अ and आ" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 14 }} />
+            <img src="/assets/Ka-Kha-Front a aa.png" width={210} height={304} alt="Vowels अ/आ card — Ka–Kha Sanskaar Lipi deck" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 14 }} />
           </div>
           {/* Star sticker */}
           <div style={{
@@ -572,7 +572,7 @@ function StyleStamp() {
             transform: "rotate(-3deg)",
           }}>
             <div style={{ position: "relative", aspectRatio: "0.71/1", overflow: "hidden", border: "1px solid #1A1208" }}>
-              <img src="/assets/kakha-cover.png" alt="Cover of the Ka–Kha Sanskaar Lipi bilingual learning card deck for children, made in Kathmandu" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+              <img src="/assets/kakha-cover.png" width={197} height={293} alt="Ka–Kha Sanskaar Lipi deck cover — bilingual learning cards, Kathmandu" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
             </div>
             <div style={{
               display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 10,

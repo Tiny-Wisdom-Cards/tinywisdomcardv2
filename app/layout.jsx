@@ -2,8 +2,12 @@ import './globals.css';
 import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
-  title: 'Nepali & English Alphabet Learning Cards for Kids | Tiny Wisdom Cards',
-  description: 'Tiny Wisdom Cards are bilingual learning card decks for children aged 3+, teaching the English and Nepali alphabet through stories from Hindu epics. Made in Kathmandu.',
+  metadataBase: new URL('https://tinywisdomcards.com'),
+  title: 'Nepali & English Alphabet Cards for Kids | Tiny Wisdom Cards',
+  description: 'Bilingual learning cards for children aged 3+, teaching English & Nepali alphabets through stories from the Mahabharata & Ramayana. Made in Kathmandu.',
+  alternates: {
+    canonical: 'https://tinywisdomcards.com',
+  },
   icons: {
     icon: '/assets/fabicon.png',
   },

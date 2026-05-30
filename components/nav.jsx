@@ -12,6 +12,8 @@ function Logo({ scale = 1, color = "auto" }) {
       <img
         src={src}
         alt="Tiny Wisdom Cards"
+        width={216}
+        height={72}
         style={{ height: 72, width: "auto", display: "block", filter }}
       />
     </div>
