@@ -18,14 +18,5 @@
     "next": "^16.2.6",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
-  },
-  "browserslist": [
-    ">0.3%",
-    "not dead",
-    "not op_mini all",
-    "not safari < 15.4",
-    "not ios < 15.4",
-    "not chrome < 92",
-    "not firefox < 90"
-  ]
+  }
 }
