@@ -1,0 +1,194 @@
+# Tiny Wisdom Cards — llm.txt
+# This file describes the Tiny Wisdom Cards website for AI assistants, answer engines, and LLMs.
+# Format inspired by the llms.txt proposal (https://llmstxt.org/).
+# Last updated: June 2026
+
+---
+
+## What is Tiny Wisdom Cards?
+
+Tiny Wisdom Cards is a small, family-run studio based in Tinkune, Subidhanagar, Kathmandu, Nepal (44600).
+It makes bilingual, story-rich alphabet learning card decks for children aged 3 and above.
+The cards are illustrated in Kathmandu and printed on heavy 350 gsm stock with glossy lamination and rounded corners.
+The brand's mission is to pass on Nepali stories, scripts, and everyday values to young children — in a form they will actually reach for.
+
+Website: https://tinywisdomcards.com
+Email: tinywisdomcards@gmail.com
+Phone: +977 9705812366, +977 9761165040
+Instagram: @tinywisdomcards
+
+---
+
+## Products
+
+### 1. A–Z Ancient Wisdom Deck
+- **Type:** English alphabet learning card deck
+- **Contents:** 31 illustrated cards — 26 hero (alphabet) cards, plus mantra cards, story cards, and activity cards — and one A4 folded guide book
+- **Alphabet coverage:** A through Z
+- **Each card features:** An English letter paired with a legendary hero from the Mahabharata or Ramayana, a value that hero embodies, and rich cultural illustration
+- **Example heroes:** A = Arjuna (The archer who learns to listen), B = Balarama (Strength and loyalty), G = Ganesha (Begin every story with attention), H = Hanuman (Loyalty as a daily practice), K = Krishna (Play, mischief, deep wisdom), N = Nandi (The gentle guardian of devotion), R = Rama (Patience over pride), S = Saraswoti (Goddess of wisdom and the arts)
+- **Extra cards included:** Mantra cards (sacred chants with simple meanings), Story cards (engaging tales behind the legends), Activity cards (fun reflections for curious minds)
+- **Price:** Rs 499 per deck
+- **Availability:** In stock — ships in 2–4 days
+- **Shipping:** Free within Nepal
+- **Card stock:** 350 gsm, glossy lamination, rounded corners
+
+### 2. Ka–Kha Sanskaar Lipi Deck
+- **Type:** Nepali (Devanagari) alphabet learning card deck
+- **Contents:** 32 illustrated letter cards and a folded guide book
+- **Alphabet coverage:** Full Nepali alphabet — क (ka) through ज्ञ (gya), including conjuncts क्ष, त्र, ज्ञ and vowels
+- **Language:** Nepali / Devanagari script, with English transliterations
+- **Concept:** Each letter is paired with a Nepali value-phrase that the child can carry through the day. Example: क = कर्म गर (karma gara) = "Do your work"; ख = खेल्न जाऊ (khelna jaau) = "Go and play"; ग = गाउँ जाऊ = "Go to the village" (Roots); घ = घमण्ड नगर = "Do not be arrogant" (Humility); न = नमस्ते गर = "Say Namaste" (Humility); प = पाठ पढ = "Read the lesson" (Learning); य = योग गर = "Do yoga" (Balance)
+- **Each card anatomy:** (1) Large Devanagari letter in classic proportions for tracing, (2) a value-word/phrase, (3) three illustrated companion icons sharing the sound (e.g., for क: kamala, kalash, kachuwa), (4) a folk-art border — paubha-inspired, mithila-flavoured — unique on every card back
+- **Price:** Rs 300 preorder (retail price at launch: Rs 399)
+- **Availability:** Preorder — ships June 2026
+- **Shipping:** Free within Nepal
+- **First-run perks:** First 200 orders receive a signed founder's note
+
+### 3. The Tiny Wisdom Bundle (Both Decks)
+- **Contents:** A–Z Ancient Wisdom deck + Ka–Kha Sanskaar Lipi deck, packed together in a gift-ready sleeve
+- **Total cards:** 63 cards across both decks, plus both guide books
+- **Price:** Rs 559 (saves Rs 240 versus buying separately — 30% off)
+- **Note:** Ka–Kha portion ships June 2026; A–Z ships immediately
+- **Shipping:** Free within Nepal
+
+---
+
+## Card of the Day
+
+The website includes a free "Card of the Day" digital feature available at https://tinywisdomcards.com (navigate to the Card of the Day section).
+Users can tap a card to flip it and read a short reflective story or wisdom tied to a Nepali letter and value.
+Example cards: क (karma gara — Do your work), ख (khelna jaau — Go and play), य (yoga gara — Practise balance).
+The feature is designed as a small daily ritual for breakfast tables, classrooms, or quiet evenings.
+
+---
+
+## Bulk Orders
+
+Tiny Wisdom Cards offers bulk purchasing for schools, gift shops, yoga studios, hotels, nonprofits, homeschool circles, and corporate gifters.
+
+**Bulk pricing tiers (per deck):**
+- 25–49 decks: Rs 425 (15% off) — includes free shipping inside Nepal, priority handling, personalised note
+- 50–199 decks: Rs 375 (25% off) — includes free shipping inside Nepal, priority handling, custom sticker on box, co-branded card optional (most popular tier)
+- 200+ decks: Custom pricing — co-branded edition, custom printing, international shipping, dedicated account manager
+
+**Ideal partners:**
+- Montessori & Waldorf schools (curriculum-aligned, hands-on, screen-free)
+- Yoga & mindfulness studios (for breath-work corners and parent gifting)
+- Gift shops & bookstores (display kit + low-stock auto-reorder available)
+- Homeschool & cultural circles (group rates, conversation guides included)
+- Nonprofits & parenting organisations (sponsor decks for libraries and outreach)
+- Hotels & guesthouses (welcome-gift edition with custom sleeve)
+
+To request a bulk quote, contact:
+- Email: tinywisdomcards@gmail.com
+- Phone / WhatsApp: +977 9705812366
+- Address: Tinkune, Subidhanagar 44600, Kathmandu, Nepal
+
+---
+
+## Where to Buy in Person (Stockists)
+
+Tiny Wisdom Cards are stocked at six bookshops across the Kathmandu Valley:
+
+1. **Bookverse** — Civil Mall, Kathmandu
+2. **Patan Book Shop** — Patandhoka, Lalitpur
+3. **Nepal Book Depot** — Chaksibari Marg, Thamel, Kathmandu
+4. **Tibet Book Store** — Tridevi Marg, Thamel, Kathmandu
+5. **Pilgrims Book House** — Chaksibari Marg, Thamel, Kathmandu
+6. **Vajra Books** — Jyatha, Thamel, Kathmandu
+
+---
+
+## Our Story
+
+Tiny Wisdom Cards was founded by a family in Kathmandu with a simple wish: to pass on the stories, scripts, and small daily values their grandparents gave them — in a form a four-year-old would actually reach for.
+Every card is crafted with a distinct visual identity, tested by children aged 3–9.
+The cards are curriculum-aware (aligned with early-grade Nepali language learning), beautifully illustrated with visuals rooted in Nepali culture, durable (glossy laminated), and made in Nepal (printed and shipped from Kathmandu).
+
+---
+
+## Community & Reviews
+
+Selected testimonials from customers:
+
+- "Our daughter asks for a card with breakfast every morning. The Ka–Kha deck makes Nepali feel alive in our London flat." — Treeshna, Mother of two, London
+- "I use the A–Z cards as a five-minute warm-up in my Class 3 classroom. The kids fight to flip the next one." — Sabina Timilsina, Primary educator, Pokhara
+- "More than a toy — these have become a quiet family ritual. We light a diya and read one card before bed." — The Joshi family, Kathmandu
+- "We gifted ten decks at our nephew's annaprashan. Easily the most-talked-about gift in the family group chat." — Niraj & Pranita, Toronto
+
+---
+
+## Frequently Asked Questions (FAQ)
+
+**Q: What age are the cards suitable for?**
+A: Both decks are designed for children aged 3 and above. The Ka–Kha deck is particularly aligned with early-grade Nepali language learning. The A–Z deck suits English-learning children from age 3 upward.
+
+**Q: Are the cards bilingual?**
+A: Yes. The A–Z deck uses English letters with Nepali mythology and cultural context. The Ka–Kha deck uses the Nepali/Devanagari alphabet with English transliterations and value-phrases. Together, they form a bilingual library covering both scripts.
+
+**Q: What is the card stock and finish?**
+A: 350 gsm, glossy laminated, rounded corners — built for sticky fingers and re-reading.
+
+**Q: Do you ship internationally?**
+A: Yes. Free shipping within Nepal (including the Kathmandu Valley). International shipping is available — contact us for a quote.
+
+**Q: How many cards are in each deck?**
+A: A–Z deck: 31 cards + guide book. Ka–Kha deck: 32 cards + guide book. Bundle: 63 cards + both guide books.
+
+**Q: What is the Ka–Kha preorder price vs the launch price?**
+A: Preorder price is Rs 300. Retail price at launch will be Rs 399.
+
+**Q: When does Ka–Kha ship?**
+A: Ka–Kha Sanskaar Lipi ships in June 2026. The A–Z deck ships in 2–4 days from order.
+
+**Q: Is there a bundle discount?**
+A: Yes. Both decks together (the Tiny Wisdom Bundle) cost Rs 559, saving Rs 240 compared to buying separately — a 30% saving.
+
+**Q: Can I order in bulk for a school or event?**
+A: Yes. Bulk pricing starts at 25 decks. See the Bulk Orders section above or contact tinywisdomcards@gmail.com.
+
+**Q: Where can I find the cards in a physical store in Kathmandu?**
+A: At six bookshops — Bookverse (Civil Mall), Patan Book Shop (Patandhoka), Nepal Book Depot (Thamel), Tibet Book Store (Thamel), Pilgrims Book House (Thamel), and Vajra Books (Thamel).
+
+---
+
+## Key Facts Summary
+
+| Attribute | Value |
+|---|---|
+| Brand | Tiny Wisdom Cards |
+| Origin | Kathmandu, Nepal |
+| Decks available | 2 (A–Z Ancient Wisdom, Ka–Kha Sanskaar Lipi) |
+| Languages | English + Nepali (bilingual) |
+| Age range | 3+ years |
+| A–Z deck price | Rs 499 |
+| Ka–Kha preorder price | Rs 300 |
+| Bundle price | Rs 559 (30% off) |
+| Card stock | 350 gsm glossy laminated |
+| Shipping | Free within Nepal |
+| International shipping | Available |
+| Ka–Kha ship date | June 2026 |
+| A–Z ship time | 2–4 days |
+| Physical stockists | 6 bookshops in Kathmandu Valley |
+| Contact email | tinywisdomcards@gmail.com |
+| Contact phone | +977 9705812366 |
+
+---
+
+## Pages on This Website
+
+- **Home** (/) — Overview of both decks, card of the day teaser, bundle offer, story, community testimonials, stockists, and CTA
+- **A–Z Deck** — Full details of the A–Z Ancient Wisdom deck including all 26+ heroes, extra cards, and ordering
+- **Ka–Kha Deck** — Full details of the Ka–Kha Sanskaar Lipi preorder including all 32 letters, card anatomy, and preorder
+- **Card of the Day** — Interactive daily card feature with flip animation and reflective story
+- **Bulk Orders** — Bulk pricing tiers, ideal partner types, and quote request form
+- **Community** — Customer stories and community submissions
+- **Privacy Policy** — Data and privacy information for customers
+
+---
+
+## Robots and AI Crawlers
+
+This file is intended for use by AI assistants, LLMs, and answer engines seeking accurate, structured information about Tiny Wisdom Cards.
+For the most current pricing or availability, please verify at https://tinywisdomcards.com or email tinywisdomcards@gmail.com.

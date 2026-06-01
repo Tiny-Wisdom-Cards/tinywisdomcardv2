@@ -3,6 +3,7 @@ import React from 'react';
 import { TopNav, Footer, StickyCTA } from '../components/nav.jsx';
 import { HomePage } from '../components/home.jsx';
 import { DeckPage, KakhaPage, CardOfDayPage, BulkPage, CommunityPage, PrivacyPage } from '../components/pages.jsx';
+import { AeoPage } from '../components/aeo-page.jsx';
 import { TweaksPanel, TweakSection, TweakRadio, TweakColor, useTweaks } from '../components/tweaks-panel.jsx';
 import { OrderForm } from '../components/order-form.jsx';
 
@@ -18,7 +19,15 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
 
 function App() {
   const [t, setTweak] = useTweaks(TWEAK_DEFAULTS);
-  const [page, setPage] = React.useState("home");
+  const [page, setPage] = React.useState(() => {
+    // Allow deep-linking via ?page=about for AEO / crawlers (not shown in nav)
+    if (typeof window !== 'undefined') {
+      const p = new URLSearchParams(window.location.search).get('page');
+      if (p) return p;
+    }
+    return 'home';
+  });
+
   const [scrolled, setScrolled] = React.useState(false);
   const [stickyVisible, setStickyVisible] = React.useState(false);
   const [orderOpen, setOrderOpen] = React.useState(false);
@@ -87,6 +96,8 @@ function App() {
         {page === "bulk" && <BulkPage onNav={onNav} />}
         {page === "community" && <CommunityPage onNav={onNav} />}
         {page === "privacy" && <PrivacyPage onNav={onNav} />}
+        {page === "about" && <AeoPage />}
+
       </main>
 
       <Footer onNav={onNav} />
