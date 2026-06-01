@@ -291,7 +291,12 @@ function Footer({ onNav }) {
           display: "flex", justifyContent: "space-between", alignItems: "center",
           color: "rgba(255,248,231,0.5)", fontSize: 13,
         }} className="footer-bottom">
-          <span>© 2025 Tiny Wisdom Cards · Made with care in Nepal <span style={{ fontFamily: "var(--font-hand)", color: "var(--peach)", fontSize: 18 }}>✦</span></span>
+          <div>
+            © {new Date().getFullYear()} Tiny Wisdom Cards · Made with care in Nepal <span style={{ fontFamily: "var(--font-hand)", color: "var(--peach)", fontSize: 18 }}>✦</span>
+            <span style={{ display: "inline-block", marginLeft: "4px" }}>
+              · Designed and developed by <a href="https://margintopsolutions.com" target="_blank" rel="noreferrer" style={{ color: "inherit", textDecoration: "underline", textUnderlineOffset: "3px" }}>MarginTop Solutions</a>
+            </span>
+          </div>
           <div style={{ display: "flex", gap: 24 }}>
             <button onClick={() => onNav("privacy")} style={{ background: "none", border: "none", padding: 0, cursor: "pointer", color: "rgba(255,248,231,0.5)", fontSize: 13, fontFamily: "inherit" }}>Privacy</button>
           </div>
