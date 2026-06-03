@@ -1280,6 +1280,28 @@ function PrivacyPage({ onNav }) {
       ),
     },
     {
+      title: "Returns, Refunds, and Exchanges",
+      content: (
+        <>
+          <p style={{ fontSize: 16, lineHeight: 1.75, color: "var(--ink-2)", marginBottom: 12 }}>
+            We want you to love your Tiny Wisdom Cards. If you are not entirely satisfied with your purchase, we are here to help.
+          </p>
+          <ul style={{ paddingLeft: 20, display: "grid", gap: 8 }}>
+            {[
+              ["Return Window", "You have 7 days from the date of delivery to request a return or exchange. To be eligible, your items must be unused, in their original packaging, and in the same condition you received them."],
+              ["Damaged or Incorrect Items", "If your order arrives damaged or defective, please contact us immediately with a photo of the issue. We will arrange a free replacement or exchange."],
+              ["Refund Processing", "Once your return is received and approved, your refund will be processed back via your original payment method (e.g., eSewa, Khalti, or Bank Transfer) within 3 to 5 business days. Delivery fees are non-refundable unless the return is due to our error."],
+              ["Shipping Costs", "For standard change-of-mind returns, you are responsible for return delivery fees. Alternatively, local customers in Kathmandu can coordinate a drop-off at our Tinkune location by appointment."],
+            ].map(([title, desc]) => (
+              <li key={title} style={{ fontSize: 15, lineHeight: 1.7, color: "var(--ink-2)" }}>
+                <strong style={{ color: "var(--ink)" }}>{title}:</strong> {desc}
+              </li>
+            ))}
+          </ul>
+        </>
+      ),
+    },
+    {
       title: "Retention of Your Personal Data",
       content: (
         <p style={{ fontSize: 16, lineHeight: 1.75, color: "var(--ink-2)" }}>
@@ -1367,7 +1389,7 @@ function PrivacyPage({ onNav }) {
               Privacy <span className="hand" style={{ color: "var(--saffron)" }}>Policy.</span>
             </h1>
             <p className="lede" style={{ marginTop: 16, color: "var(--ink-2)", maxWidth: "52ch" }}>
-              Last updated: August 8, 2025 · Read in about 3 minutes.
+              Last updated: June 2, 2026 · Read in about 4 minutes.
             </p>
             <p style={{ marginTop: 12, fontSize: 16, lineHeight: 1.75, color: "var(--ink-2)", maxWidth: "62ch" }}>
               This Privacy Policy describes how Tiny Wisdom Cards Pvt. Ltd. ("we", "us", "our") collects, uses, and discloses your information when you use our website. By using the Service, you agree to the collection and use of information in accordance with this policy.
