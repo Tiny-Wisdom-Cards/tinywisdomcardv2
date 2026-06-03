@@ -292,7 +292,7 @@ function Footer({ onNav }) {
           color: "rgba(255,248,231,0.5)", fontSize: 13,
         }} className="footer-bottom">
           <div>
-            © {new Date().getFullYear()} Tiny Wisdom Cards · Made with care in Nepal <span style={{ fontFamily: "var(--font-hand)", color: "var(--peach)", fontSize: 18 }}>✦</span>
+            © {new Date().getFullYear()} Tiny Wisdom Cards · Made with care in Nepal
             <span style={{ display: "inline-block", marginLeft: "4px" }}>
               · Designed and developed by <a href="https://margintopsolutions.com" target="_blank" rel="noreferrer" style={{ color: "inherit", textDecoration: "underline", textUnderlineOffset: "3px" }}>MarginTop Solutions</a>
             </span>
