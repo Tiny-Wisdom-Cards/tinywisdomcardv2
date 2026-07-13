@@ -72,7 +72,7 @@ function HomeHero({ onNav }) {
         }}>
           <div>
             <div className="chip chip-saffron" style={{ marginBottom: 28 }}>
-              <Star size={14} color="var(--paper)" /> Ka–Kha preorder is open · ships June 2026
+              <Star size={14} color="var(--paper)" /> Ka–Kha preorder is open · ships August 2026
             </div>
 
             <h1 className="h-display">
@@ -247,7 +247,7 @@ function TwoDecks({ onNav, onOrder }) {
             handAccent="Sanskaar Lipi"
             description="32 cards walking little ones through the Nepali alphabet, where क is for karma gara, ख for khelna jaau, and every letter teaches a value."
             price="Rs 300"
-            priceNote="Preorder — ships June 2026"
+            priceNote="Preorder — ships August 2026"
             image="/assets/kakha-cover.png"
             backImage="/assets/Ka-Kha-Front Ka.png"
             color="var(--peach)"
@@ -601,7 +601,7 @@ function BundleOffer({ onNav, onOrder }) {
                 </button>
               </div>
               <div style={{ fontSize: 12, color: "rgba(255,248,231,0.7)", marginTop: 16 }}>
-                ✦ Ka–Kha portion ships June 2026 — A–Z ships immediately
+                ✦ Ka–Kha portion ships August 2026 — A–Z ships immediately
               </div>
             </div>
 

@@ -236,7 +236,7 @@ function KakhaPage({ onNav, onOrder }) {
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1.15fr", gap: 56, alignItems: "center" }} className="kakha-hero">
             <div>
               <span className="chip chip-saffron">
-                <Star size={14} color="var(--paper)" /> New · Preorder · Ships June 2026
+                <Star size={14} color="var(--paper)" /> New · Preorder · Ships August 2026
               </span>
               <h1 className="h-display" style={{ marginTop: 24 }}>
                 <span className="deva" style={{ fontStyle: "normal", color: "var(--saffron)", fontSize: "0.9em" }}>क</span> is for<br />
@@ -394,7 +394,7 @@ function KakhaPage({ onNav, onOrder }) {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 20 }} className="why-grid">
             {[
               { n: "Rs 300", l: "Preorder price", s: "vs Rs 399 at launch", c: "var(--paper)" },
-              { n: "June 2026", l: "Shipping window", s: "We'll email tracking", c: "var(--sage)" },
+              { n: "August 2026", l: "Shipping window", s: "We'll email tracking", c: "var(--sage)" },
               { n: "Signed", l: "Founder's note", s: "First 200 orders only", c: "var(--peach-light)" },
             ].map((x, i) => (
               <div key={i} className="card" style={{

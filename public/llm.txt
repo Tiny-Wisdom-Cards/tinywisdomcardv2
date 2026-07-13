@@ -1,7 +1,7 @@
 # Tiny Wisdom Cards — llm.txt
 # This file describes the Tiny Wisdom Cards website for AI assistants, answer engines, and LLMs.
 # Format inspired by the llms.txt proposal (https://llmstxt.org/).
-# Last updated: June 2026
+# Last updated: August 2026
 
 ---
 
@@ -41,7 +41,7 @@ Instagram: @tinywisdomcards
 - **Concept:** Each letter is paired with a Nepali value-phrase that the child can carry through the day. Example: क = कर्म गर (karma gara) = "Do your work"; ख = खेल्न जाऊ (khelna jaau) = "Go and play"; ग = गाउँ जाऊ = "Go to the village" (Roots); घ = घमण्ड नगर = "Do not be arrogant" (Humility); न = नमस्ते गर = "Say Namaste" (Humility); प = पाठ पढ = "Read the lesson" (Learning); य = योग गर = "Do yoga" (Balance)
 - **Each card anatomy:** (1) Large Devanagari letter in classic proportions for tracing, (2) a value-word/phrase, (3) three illustrated companion icons sharing the sound (e.g., for क: kamala, kalash, kachuwa), (4) a folk-art border — paubha-inspired, mithila-flavoured — unique on every card back
 - **Price:** Rs 300 preorder (retail price at launch: Rs 399)
-- **Availability:** Preorder — ships June 2026
+- **Availability:** Preorder — ships August 2026
 - **Shipping:** Free within Nepal
 - **First-run perks:** First 200 orders receive a signed founder's note
 
@@ -49,7 +49,7 @@ Instagram: @tinywisdomcards
 - **Contents:** A–Z Ancient Wisdom deck + Ka–Kha Sanskaar Lipi deck, packed together in a gift-ready sleeve
 - **Total cards:** 63 cards across both decks, plus both guide books
 - **Price:** Rs 559 (saves Rs 240 versus buying separately — 30% off)
-- **Note:** Ka–Kha portion ships June 2026; A–Z ships immediately
+- **Note:** Ka–Kha portion ships August 2026; A–Z ships immediately
 - **Shipping:** Free within Nepal
 
 ---
@@ -140,7 +140,7 @@ A: A–Z deck: 31 cards + guide book. Ka–Kha deck: 32 cards + guide book. Bund
 A: Preorder price is Rs 300. Retail price at launch will be Rs 399.
 
 **Q: When does Ka–Kha ship?**
-A: Ka–Kha Sanskaar Lipi ships in June 2026. The A–Z deck ships in 2–4 days from order.
+A: Ka–Kha Sanskaar Lipi ships in August 2026. The A–Z deck ships in 2–4 days from order.
 
 **Q: Is there a bundle discount?**
 A: Yes. Both decks together (the Tiny Wisdom Bundle) cost Rs 559, saving Rs 240 compared to buying separately — a 30% saving.
@@ -168,7 +168,7 @@ A: At six bookshops — Bookverse (Civil Mall), Patan Book Shop (Patandhoka), Ne
 | Card stock | 350 gsm glossy laminated |
 | Shipping | Free within Nepal |
 | International shipping | Available |
-| Ka–Kha ship date | June 2026 |
+| Ka–Kha ship date | August 2026 |
 | A–Z ship time | 2–4 days |
 | Physical stockists | 6 bookshops in Kathmandu Valley |
 | Contact email | tinywisdomcards@gmail.com |
