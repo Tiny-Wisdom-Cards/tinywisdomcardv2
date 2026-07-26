@@ -6,6 +6,7 @@ import { DeckPage, KakhaPage, CardOfDayPage, BulkPage, CommunityPage, PrivacyPag
 import { AeoPage } from '../components/aeo-page.jsx';
 import { TweaksPanel, TweakSection, TweakRadio, TweakColor, useTweaks } from '../components/tweaks-panel.jsx';
 import { OrderForm } from '../components/order-form.jsx';
+import { PromoSlideshow } from '../components/promo-slideshow.jsx';
 
 // app.jsx — main TWC app (Storybook Playful)
 
@@ -32,10 +33,27 @@ function App() {
   const [stickyVisible, setStickyVisible] = React.useState(false);
   const [orderOpen, setOrderOpen] = React.useState(false);
   const [orderSelection, setOrderSelection] = React.useState({ az: true, kakha: false });
+  const [promoOpen, setPromoOpen] = React.useState(false);
 
   const openOrder = (selection = { az: true, kakha: false }) => {
     setOrderSelection(selection);
     setOrderOpen(true);
+  };
+
+  React.useEffect(() => {
+    // Show Sanskar Lipi promo once per browser session on app open
+    try {
+      if (sessionStorage.getItem("twc-promo-seen")) return;
+    } catch (_) {}
+    const t = setTimeout(() => setPromoOpen(true), 400);
+    return () => clearTimeout(t);
+  }, []);
+
+  const closePromo = () => {
+    try {
+      sessionStorage.setItem("twc-promo-seen", "1");
+    } catch (_) {}
+    setPromoOpen(false);
   };
 
   React.useEffect(() => {
@@ -78,6 +96,8 @@ function App() {
   return (
     <div>
       <TopNav page={page} onNav={onNav} scrolled={scrolled} onOrder={openOrder} />
+
+      <PromoSlideshow isOpen={promoOpen} onClose={closePromo} />
 
       {orderOpen && (
         <OrderForm
