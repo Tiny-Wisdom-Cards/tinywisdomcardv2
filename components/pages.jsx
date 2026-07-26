@@ -246,7 +246,7 @@ function KakhaPage({ onNav, onOrder }) {
                 The Ka–Kha deck walks little ones through the Nepali alphabet, not just letters, but values. क is karma gara. ख is khelna jaau. Every letter teaches a small wisdom to carry through the day.
               </p>
               <div style={{ display: "flex", gap: 14, marginTop: 36, alignItems: "center", flexWrap: "wrap" }}>
-                <button className="btn btn-ink btn-lg btn-arrow" onClick={() => onOrder({ az: false, kakha: true })}>Preorder — Rs 300</button>
+                <button className="btn btn-ink btn-lg btn-arrow" onClick={() => onOrder({ az: false, kakha: true })}>Preorder — Rs 349</button>
                 <span style={{ fontSize: 14, color: "var(--ink-2)", fontWeight: 600 }}>Free shipping inside Nepal</span>
               </div>
               <div style={{ display: "flex", gap: 16, marginTop: 40, flexWrap: "wrap" }}>
@@ -270,7 +270,7 @@ function KakhaPage({ onNav, onOrder }) {
                   padding: "4px 12px", borderRadius: 999,
                   fontSize: 10, fontWeight: 800, letterSpacing: "0.18em",
                 }}>PREORDER</span>
-                Rs 300 until launch · retail price Rs 399 ✦
+                Rs 349 until launch · retail price Rs 399 ✦
               </div>
             </div>
 
@@ -393,7 +393,7 @@ function KakhaPage({ onNav, onOrder }) {
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 20 }} className="why-grid">
             {[
-              { n: "Rs 300", l: "Preorder price", s: "vs Rs 399 at launch", c: "var(--paper)" },
+              { n: "Rs 349", l: "Preorder price", s: "vs Rs 399 at launch", c: "var(--paper)" },
               { n: "August 2026", l: "Shipping window", s: "We'll email tracking", c: "var(--sage)" },
               { n: "Signed", l: "Founder's note", s: "First 200 orders only", c: "var(--peach-light)" },
             ].map((x, i) => (

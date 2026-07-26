@@ -177,7 +177,7 @@ export function OrderForm({ isOpen, initialSelection, onClose }) {
 
   const decks = [
     { id: "az", name: "A–Z Ancient Wisdom", price: 499, cover: "/assets/ABC-cover.png" },
-    { id: "kakha", name: "Ka–Kha Sanskaar Lipi", price: 300, cover: "/assets/kakha-cover.png" },
+    { id: "kakha", name: "Ka–Kha Sanskaar Lipi", price: 349, cover: "/assets/kakha-cover.png" },
   ];
 
   const both = selectedDecks.az && selectedDecks.kakha;
@@ -187,17 +187,17 @@ export function OrderForm({ isOpen, initialSelection, onClose }) {
   let totalQty = 0;
   if (both) {
     if (separateQty) {
-      total = qtyAz * 499 + qtyKakha * 300;
+      total = qtyAz * 499 + qtyKakha * 349;
       totalQty = qtyAz + qtyKakha;
     } else {
-      total = qty * 559;
+      total = qty * 829;
       totalQty = qty * 2; // 2 decks per bundle
     }
   } else if (selectedDecks.az) {
     total = qty * 499;
     totalQty = qty;
   } else if (selectedDecks.kakha) {
-    total = qty * 300;
+    total = qty * 349;
     totalQty = qty;
   }
 
@@ -213,14 +213,14 @@ export function OrderForm({ isOpen, initialSelection, onClose }) {
     if (both) {
       if (separateQty) {
         lines.push(`• A–Z Ancient Wisdom × ${qtyAz} = Rs ${qtyAz * 499}`);
-        lines.push(`• Ka–Kha Sanskaar Lipi × ${qtyKakha} = Rs ${qtyKakha * 300}`);
+        lines.push(`• Ka–Kha Sanskaar Lipi × ${qtyKakha} = Rs ${qtyKakha * 349}`);
       } else {
-        lines.push(`• Tiny Wisdom Bundle (A–Z + Ka–Kha) × ${qty} = Rs ${qty * 559}`);
+        lines.push(`• Tiny Wisdom Bundle (A–Z + Ka–Kha) × ${qty} = Rs ${qty * 829}`);
       }
     } else if (selectedDecks.az) {
       lines.push(`• A–Z Ancient Wisdom × ${qty} = Rs ${qty * 499}`);
     } else if (selectedDecks.kakha) {
-      lines.push(`• Ka–Kha Sanskaar Lipi × ${qty} = Rs ${qty * 300}`);
+      lines.push(`• Ka–Kha Sanskaar Lipi × ${qty} = Rs ${qty * 349}`);
     }
     return lines.join("\n");
   };
@@ -533,7 +533,7 @@ export function OrderForm({ isOpen, initialSelection, onClose }) {
               </div>
               {both && !separateQty && qty > 1 && (
                 <div style={{ fontSize: 12, color: "var(--saffron)", fontWeight: 700, marginTop: 2 }}>
-                  Rs 559 × {qty} bundles
+                  Rs 829 × {qty} bundles
                 </div>
               )}
             </div>

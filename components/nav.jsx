@@ -158,7 +158,7 @@ function StickyCTA({ onClick, visible }) {
   return (
     <>
       <div className={`sticky-cta${visible ? " sticky-cta--visible" : ""}`}>
-        <span>The Ka–Kha is on preorder · <b>Rs 300</b></span>
+        <span>The Ka–Kha is on preorder · <b>Rs 349</b></span>
         <button onClick={onClick} className="sticky-cta__btn">
           Reserve →
         </button>

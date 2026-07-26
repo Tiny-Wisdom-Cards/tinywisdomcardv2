@@ -96,7 +96,7 @@ function HomeHero({ onNav }) {
                 fontFamily: "var(--font-hand)", fontSize: 22, color: "var(--saffron)",
                 fontWeight: 700, transform: "rotate(-4deg)", display: "inline-block",
                 marginLeft: 8,
-              }}>save 30% on bundle! ↗</span>
+              }}>save Rs 19 on bundle! ↗</span>
             </div>
 
             <div style={{ display: "flex", gap: 36, marginTop: 56, flexWrap: "wrap" }}>
@@ -246,7 +246,7 @@ function TwoDecks({ onNav, onOrder }) {
             title="Ka–Kha Sanskaar Lipi"
             handAccent="Sanskaar Lipi"
             description="32 cards walking little ones through the Nepali alphabet, where क is for karma gara, ख for khelna jaau, and every letter teaches a value."
-            price="Rs 300"
+            price="Rs 349"
             priceNote="Preorder — ships August 2026"
             image="/assets/kakha-cover.png"
             backImage="/assets/Ka-Kha-Front Ka.png"
@@ -540,7 +540,7 @@ function BundleOffer({ onNav, onOrder }) {
           <StickerBadge color="var(--sage)" rotate={-8} style={{
             position: "absolute", top: 30, right: 30, zIndex: 5,
             fontSize: 26, padding: "18px 22px",
-          }}>save<br />30%!</StickerBadge>
+          }}>save<br />Rs 19!</StickerBadge>
 
           <div style={{
             display: "grid", gridTemplateColumns: "1fr 1fr", gap: 56,
@@ -571,17 +571,8 @@ function BundleOffer({ onNav, onOrder }) {
                 <div style={{
                   fontFamily: "var(--font-display)", fontSize: 72, fontWeight: 800,
                   color: "var(--paper)", lineHeight: 1, letterSpacing: "-0.03em",
-                }}>Rs 559</div>
+                }}>Rs 829</div>
                 <div>
-                  <div style={{
-                    fontSize: 22, color: "rgba(255,248,231,0.5)",
-                    textDecoration: "line-through", textDecorationThickness: 2,
-                    fontFamily: "var(--font-display)", fontWeight: 700,
-                  }}>Rs 799</div>
-                  <div style={{
-                    fontFamily: "var(--font-hand)", fontSize: 22, color: "var(--paper)",
-                    fontWeight: 700, marginTop: -4,
-                  }}>save Rs 240!</div>
                 </div>
               </div>
 
@@ -594,7 +585,7 @@ function BundleOffer({ onNav, onOrder }) {
 
               <div style={{ display: "flex", gap: 12, marginTop: 36, flexWrap: "wrap" }}>
                 <button className="btn btn-ink btn-lg btn-arrow" onClick={() => onOrder({ az: true, kakha: true })}>
-                  Order the bundle — Rs 559
+                  Order the bundle — Rs 829
                 </button>
                 <button className="btn btn-ghost btn-lg" onClick={() => onOrder({ az: false, kakha: false })}>
                   Decks sold separately ↗
@@ -900,14 +891,14 @@ function FinalCTA({ onNav, onOrder }) {
           Bring home a piece <br />of the <span className="hand" style={{ color: "var(--paper)" }}>everyday epic.</span>
         </h2>
         <p style={{ color: "rgba(255,248,231,0.92)", maxWidth: 560, margin: "28px auto 40px", fontSize: 17, fontWeight: 500 }}>
-          Pick a starting point, or grab both decks together and save 30%.
+          Pick a starting point, or grab both decks together and save Rs 19.
         </p>
         <div style={{ display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
           <button className="btn btn-lg btn-arrow" style={{ background: "var(--paper)", color: "var(--ink)" }} onClick={() => onOrder({ az: true, kakha: false })}>
             A–Z Ancient Wisdom · Rs 499
           </button>
           <button className="btn btn-lg btn-arrow" style={{ background: "var(--sage)", color: "var(--ink)" }} onClick={() => onOrder({ az: false, kakha: true })}>
-            Ka–Kha Sanskaar Lipi · Rs 300
+            Ka–Kha Sanskaar Lipi · Rs 349
           </button>
           <button className="btn btn-ink btn-lg btn-arrow" style={{ position: "relative" }} onClick={() => onOrder({ az: true, kakha: true })}>
             <span style={{
@@ -918,8 +909,8 @@ function FinalCTA({ onNav, onOrder }) {
               border: "2px solid var(--ink)",
               transform: "rotate(8deg)",
               boxShadow: "3px 3px 0 var(--ink)",
-            }}>save 30%!</span>
-            Both decks · Rs 559
+            }}>save Rs 19!</span>
+            Both decks · Rs 829
           </button>
         </div>
         <div style={{ marginTop: 24, color: "rgba(255,248,231,0.85)", fontSize: 13, fontWeight: 600 }}>

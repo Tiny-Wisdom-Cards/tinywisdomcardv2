@@ -393,7 +393,7 @@ function StyleStorybook() {
             <span style={{
               fontFamily: '"Caveat", cursive', fontSize: 22, color: "#E8621A", fontWeight: 700,
               transform: "rotate(-4deg)", display: "inline-block",
-            }}>save 30%! ↗</span>
+            }}>save Rs 19! ↗</span>
           </div>
         </div>
 
@@ -552,7 +552,7 @@ function StyleStamp() {
             paddingTop: 24, borderTop: "1px dashed #1A1208",
           }}>
             {[
-              ["63", "CARDS"], ["2", "SCRIPTS"], ["350GSM", "MATTE STOCK"], ["RS 559", "BUNDLE PRICE"]
+              ["63", "CARDS"], ["2", "SCRIPTS"], ["350GSM", "MATTE STOCK"], ["RS 829", "BUNDLE PRICE"]
             ].map(([k, l]) => (
               <div key={l}>
                 <div style={{ fontFamily: '"DM Serif Display", serif', fontSize: 32, lineHeight: 1, color: "#1A1208" }}>{k}</div>
@@ -580,7 +580,7 @@ function StyleStamp() {
               fontFamily: '"JetBrains Mono", monospace', fontSize: 10, letterSpacing: "0.16em", color: "#1A1208",
             }}>
               <span>क → ज्ञ · NEPAL</span>
-              <span>RS · 300</span>
+              <span>RS · 349</span>
             </div>
           </div>
           {/* Postmark */}
