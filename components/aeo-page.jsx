@@ -54,7 +54,7 @@ const FAQ_SCHEMA = {
       "name": "Do Tiny Wisdom Cards ship internationally?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Tiny Wisdom Cards offers free shipping within Nepal, including the Kathmandu Valley. International shipping is available — contact tinywisdomcards@gmail.com or call +977 9705812366 for a shipping quote."
+        "text": "Yes. Tiny Wisdom Cards offers shipping within Nepal, including the Kathmandu Valley. International shipping is available — contact tinywisdomcards@gmail.com or call +977 9705812366 for a shipping quote."
       }
     },
     {
@@ -391,7 +391,7 @@ export function AeoPage() {
             ['Contents', '31 cards (26 hero + 5 extra) + A4 folded guide book'],
             ['Card stock', '350 gsm glossy laminated'],
             ['Availability', 'In stock — ships in 2–4 days'],
-            ['Shipping', 'Free within Nepal'],
+            ['Shipping', 'Within Nepal'],
             ['Hero examples', 'A = Arjuna, G = Ganesha, H = Hanuman, K = Krishna, R = Rama, S = Saraswoti'],
           ]} />
 
@@ -407,7 +407,7 @@ export function AeoPage() {
             ['Contents', '32 letter cards + folded guide book'],
             ['Alphabet', 'Full Nepali — क through ज्ञ (including conjuncts and vowels)'],
             ['Availability', 'Preorder — ships August 2026'],
-            ['Shipping', 'Free within Nepal'],
+            ['Shipping', 'Within Nepal'],
             ['Example values', 'क = कर्म गर (Do your work) · ख = खेल्न जाऊ (Go and play) · य = योग गर (Do yoga)'],
             ['Special', 'First 200 orders receive a signed founder\'s note'],
           ]} />
@@ -460,7 +460,7 @@ export function AeoPage() {
             </ul>
           </QA>
           <QA q="Do you ship internationally?">
-            Yes. Shipping within Nepal is free (including the Kathmandu Valley). International shipping is available — contact <strong>tinywisdomcards@gmail.com</strong> or call <strong>+977 9705812366</strong> for a quote.
+            Yes. Shipping within Nepal is available (including the Kathmandu Valley). International shipping is available — contact <strong>tinywisdomcards@gmail.com</strong> or call <strong>+977 9705812366</strong> for a quote.
           </QA>
           <QA q="Can I order in bulk for a school or organisation?">
             Yes. Bulk pricing from 25 decks upward: 25–49 decks at Rs 425 each (15% off), 50–199 decks at Rs 375 each (25% off), 200+ at custom pricing with co-branding and custom printing. Ideal for Montessori and Waldorf schools, yoga studios, gift shops, hotels, nonprofits, and corporate gifters. Contact <strong>tinywisdomcards@gmail.com</strong>.
