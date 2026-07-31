@@ -53,7 +53,7 @@ function DeckPage({ onNav, onOrder }) {
               </p>
               <div style={{ display: "flex", gap: 14, marginTop: 36, alignItems: "center", flexWrap: "wrap" }}>
                 <button className="btn btn-ink btn-lg btn-arrow" onClick={() => onOrder({ az: true, kakha: false })}>Order — Rs 499</button>
-                <span style={{ fontSize: 14, color: "var(--ink-2)", fontWeight: 600 }}>Shipping in Nepal · Ships in 2–4 days</span>
+                <span style={{ fontSize: 14, color: "var(--ink-2)", fontWeight: 600 }}>Shipping all across Nepal · Ships in 2–4 days</span>
               </div>
               <div style={{ display: "flex", gap: 16, marginTop: 40, flexWrap: "wrap" }}>
                 <Spec k="31" l="illustrated cards" />
@@ -247,7 +247,7 @@ function KakhaPage({ onNav, onOrder }) {
               </p>
               <div style={{ display: "flex", gap: 14, marginTop: 36, alignItems: "center", flexWrap: "wrap" }}>
                 <button className="btn btn-ink btn-lg btn-arrow" onClick={() => onOrder({ az: false, kakha: true })}>Preorder — Rs 349</button>
-                <span style={{ fontSize: 14, color: "var(--ink-2)", fontWeight: 600 }}>Shipping in Nepal</span>
+                <span style={{ fontSize: 14, color: "var(--ink-2)", fontWeight: 600 }}>Shipping all across Nepal</span>
               </div>
               <div style={{ display: "flex", gap: 16, marginTop: 40, flexWrap: "wrap" }}>
                 <Spec k="32" l="letter cards" />
@@ -631,8 +631,8 @@ function BulkPage({ onNav }) {
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 24 }} className="tiers-grid">
             {[
-              { qty: "25–49", price: "Rs 425", off: "15% off", feats: ["Shipping in Nepal", "Priority handling", "Personalised note"], color: "var(--peach-light)" },
-              { qty: "50–199", price: "Rs 375", off: "25% off", feats: ["Shipping in Nepal", "Priority handling", "Custom sticker on box", "Co-branded card optional"], color: "var(--saffron)", featured: true },
+              { qty: "25–49", price: "Rs 425", off: "15% off", feats: ["Shipping all across Nepal", "Priority handling", "Personalised note"], color: "var(--peach-light)" },
+              { qty: "50–199", price: "Rs 375", off: "25% off", feats: ["Shipping all across Nepal", "Priority handling", "Custom sticker on box", "Co-branded card optional"], color: "var(--saffron)", featured: true },
               { qty: "200+", price: "Talk to us", off: "Custom", feats: ["Co-branded edition", "Custom printing", "International shipping", "Dedicated account manager"], color: "var(--sage)" },
             ].map((t, i) => (
               <article key={i} className="card" style={{

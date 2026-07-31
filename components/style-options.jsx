@@ -73,7 +73,7 @@ function StyleEditorial() {
               fontSize: 12, fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase",
             }}>Browse the decks</span>
             <span style={{ fontSize: 13, color: "#3A2B18", fontStyle: "italic", fontFamily: '"Newsreader", serif' }}>
-              Shipping in Nepal
+              Shipping all across Nepal
             </span>
           </div>
         </div>

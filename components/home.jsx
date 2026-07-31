@@ -579,7 +579,7 @@ function BundleOffer({ onNav, onOrder }) {
               <ul style={{ listStyle: "none", padding: 0, margin: "24px 0 0", display: "grid", gap: 8, fontSize: 14.5, color: "var(--paper)" }}>
                 <li style={{ display: "flex", gap: 10 }}><span>✓</span> Both decks · 63 cards total</li>
                 <li style={{ display: "flex", gap: 10 }}><span>✓</span> Folded guide books for each</li>
-                <li style={{ display: "flex", gap: 10 }}><span>✓</span> Shipping in Nepal</li>
+                <li style={{ display: "flex", gap: 10 }}><span>✓</span> Shipping all across Nepal</li>
                 <li style={{ display: "flex", gap: 10 }}><span>✓</span> Wrapped in a single gift-ready sleeve</li>
               </ul>
 
@@ -914,7 +914,7 @@ function FinalCTA({ onNav, onOrder }) {
           </button>
         </div>
         <div style={{ marginTop: 24, color: "rgba(255,248,231,0.85)", fontSize: 13, fontWeight: 600 }}>
-          ✦ Shipping in the Kathmandu Valley · International shipping available
+          ✦ Shipping all across Nepal · International shipping available
         </div>
       </div>
     </section>
