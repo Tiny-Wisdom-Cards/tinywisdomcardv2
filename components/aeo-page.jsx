@@ -22,7 +22,7 @@ const FAQ_SCHEMA = {
       "name": "How much do Tiny Wisdom Cards cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The A–Z Ancient Wisdom deck costs Rs 499 and ships in 2–4 days. The Ka–Kha Sanskaar Lipi deck is available for preorder at Rs 349 (retail price at launch will be Rs 399) and ships in August 2026. Buying both decks together as the Tiny Wisdom Bundle costs Rs 829, saving Rs 19 compared with buying separately."
+        "text": "The A–Z Ancient Wisdom deck costs Rs 499 and ships in 2–4 days. The Ka–Kha Sanskaar Lipi deck is available for preorder at Rs 349 (retail price at launch will be Rs 499) and ships in August 2026. Buying both decks together as the Tiny Wisdom Bundle costs Rs 829, saving Rs 19 compared with buying separately."
       }
     },
     {
@@ -403,7 +403,7 @@ export function AeoPage() {
           </p>
           <FactTable rows={[
             ['Preorder price', 'Rs 349'],
-            ['Retail price at launch', 'Rs 399'],
+            ['Retail price at launch', 'Rs 499'],
             ['Contents', '32 letter cards + folded guide book'],
             ['Alphabet', 'Full Nepali — क through ज्ञ (including conjuncts and vowels)'],
             ['Availability', 'Preorder — ships August 2026'],
@@ -434,7 +434,7 @@ export function AeoPage() {
             Tiny Wisdom Cards are bilingual, story-rich alphabet learning card decks for children aged 3 and above, made in Kathmandu, Nepal. There are two decks: the <strong>A–Z Ancient Wisdom</strong> deck (English alphabet with stories from the Mahabharata and Ramayana) and the <strong>Ka–Kha Sanskaar Lipi</strong> deck (Nepali/Devanagari alphabet with everyday values). Each card is printed on 350 gsm glossy-laminated stock with rounded corners.
           </QA>
           <QA q="How much do Tiny Wisdom Cards cost?">
-            The A–Z Ancient Wisdom deck costs <strong>Rs 499</strong> and ships in 2–4 days. The Ka–Kha Sanskaar Lipi deck is available for preorder at <strong>Rs 349</strong> (retail price at launch: Rs 399) and ships in August 2026. Buying both decks as the Tiny Wisdom Bundle costs <strong>Rs 829</strong> — saving Rs 19.
+            The A–Z Ancient Wisdom deck costs <strong>Rs 499</strong> and ships in 2–4 days. The Ka–Kha Sanskaar Lipi deck is available for preorder at <strong>Rs 349</strong> (retail price at launch: Rs 499) and ships in August 2026. Buying both decks as the Tiny Wisdom Bundle costs <strong>Rs 829</strong> — saving Rs 19.
           </QA>
           <QA q="Are the cards bilingual?">
             Yes. The A–Z deck uses English letters paired with characters and values from Nepali/Hindu mythology. The Ka–Kha deck uses the Nepali Devanagari alphabet with English transliterations and value-phrases. Together they form a bilingual library covering both the Latin and Devanagari scripts, suitable for Nepali diaspora families and anyone learning both languages.

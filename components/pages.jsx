@@ -270,7 +270,7 @@ function KakhaPage({ onNav, onOrder }) {
                   padding: "4px 12px", borderRadius: 999,
                   fontSize: 10, fontWeight: 800, letterSpacing: "0.18em",
                 }}>PREORDER</span>
-                Rs 349 until launch · retail price Rs 399 ✦
+                Rs 349 until launch · retail price Rs 499 ✦
               </div>
             </div>
 
@@ -393,7 +393,7 @@ function KakhaPage({ onNav, onOrder }) {
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 20 }} className="why-grid">
             {[
-              { n: "Rs 349", l: "Preorder price", s: "vs Rs 399 at launch", c: "var(--paper)" },
+              { n: "Rs 349", l: "Preorder price", s: "vs Rs 499 at launch", c: "var(--paper)" },
               { n: "August 2026", l: "Shipping window", s: "We'll email tracking", c: "var(--sage)" },
               { n: "Signed", l: "Founder's note", s: "First 200 orders only", c: "var(--peach-light)" },
             ].map((x, i) => (
